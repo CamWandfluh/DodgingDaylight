@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3ac31b5fcc38b51469f9f1977eae1f19
+timeCreated: 1517023029
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mineral: {fileID: 1951222496974812, guid: 4a5097246954c6d4eb874bb93e2c816d, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
