@@ -9,6 +9,7 @@ public class PlanetController : MonoBehaviour
 
 	public int numSpawnPoints = 1;
 
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -19,13 +20,11 @@ public class PlanetController : MonoBehaviour
 	void Update () 
 	{
 		transform.Rotate (new Vector3(0f, 0.01f, 0f));
-
-		
 	}
 
 	void CreateMineralSpawnPoints()
 	{
-		for (int i = 0; i <= numSpawnPoints; i++) 
+		for (int i = 1; i <= numSpawnPoints; i++) 
 		{
 			Vector3 spawnPoint = Random.onUnitSphere * ((transform.localScale.x / 2) + mineral.transform.localScale.y * .5f) + transform.position;
 			GameObject newMineral = Instantiate (mineral, spawnPoint, new Quaternion());
@@ -33,3 +32,4 @@ public class PlanetController : MonoBehaviour
 		}
 	}
 }
+

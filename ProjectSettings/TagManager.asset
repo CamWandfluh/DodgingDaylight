@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Mineral
+  - Moon
+  - Star
+  - Ship
+  - Death Screen
+  - StarSpawn
+  - MoonSpawn
+  - Exit Screen
+  - SectorWall
   layers:
   - Default
   - TransparentFX
